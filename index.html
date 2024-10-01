@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/ce75672861.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">             
+        <a href="#" class="logo"><span style="color: #00abf0;">M</span>ansi.</a>
+        <nav class="navbar" id="sidemenu">
+            <a href="#header" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+             <!-- <i class="fa-solid fa-xmark" onclick="closemenu()"></i> -->
+            
+        </nav>
+        <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+    </header>
+    <section class="home" id="header">
+        <div class="home-content">
+            <h1>Hi, I'm <span style="color: #00abf0;">M</span>ansi<br>Pande from India</h1>
+
+            <!-- <h1>Hi, I'm <span>Mansi</span><br>Pande from India</h1> -->
+            <h3>Jr. Web Developer</h3>
+            <p>In Life, as in Programming, sometimes you just need to hit Refresh.</p>
+        </div>
+        <span class="home-imgHover"></span>
+        <img src="images/image.png" alt="Description of image" class="animated-image">
+    </section>
+
+<!-- ------------about me----------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/users.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Mansi Pande, a third-year Computer Science student passionate about Web Development and currently exploring Data Science. I completed my second year with a CGPA of 8.80 and am now seeking Internship Opportunities to gain further real-world experience.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript, Bootstrap </li>
+                            <li><span>Data Science</span><br>Python, NumPy, Pandas, Power BI</li>
+                            <li><span>UI/UX</span><br>Figma, Designing Interfaces</li>
+                        </ul>
+                    </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>K. J. Somaiya College, Kopargaon</span><br>Bachelor's in Computer Science (Degree) - 8.80 CGPA<br>2022 - Current</li>
+                                <li><span>K. B. Rohmare Jr. College, Kopargaon</span><br>Class XII - 70%<br>2021 - 2022</li>
+                                <li><span>Atma Malik English Medium Gurukul, Kokamthan</span><br>Class X - 85.40%<br>Passing Year 2020</li>
+                            </ul>
+                        </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Web Development Intern</span><br>Cognifyz Technologies<br>Sep 2024 - Oct 2024</li>
+                                    <li><span>Data Science Intern</span><br>Oasis Infobyte<br>Aug 2024 - Sep 2024</li>
+                                    <li><span>Market Research Intern</span><br>HappiMynd<br>May 2023 - Aug 2024</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!------------------------------Services------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+         <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Building dynamic and responsive websites with a focus on both aesthetics and functionality. Proficient in modern frameworks and best practices to enhance user experience.</p>
+            <a href="#">Learn more</a>
+         </div>
+         <div>
+            <i class="fa-solid fa-chart-simple"></i>
+            <h2>Data Science</h2>
+            <p>Utilizing data-driven techniques to uncover insights and trends. Experienced in statistical analysis, data visualization, and machine learning to inform strategic decisions.</p>
+            <a href="#">Learn more</a>
+         </div>
+         <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>Designing intuitive interfaces that enhance user engagement. By understanding user needs and conducting usability testing, I create layouts that are not only visually appealing but also functional.</p>
+            <a href="#">Learn more</a>
+         </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------Portfolio----------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpeg">
+                <div class="layer">
+                    <h3>Web Designing</h3>
+                    <p>Developed an interactive web platform to connect global communities, featuring user profiles, real-time chat, and event scheduling. Utilized HTML, CSS, and JavaScript for a responsive design, ensuring accessibility and engagement across diverse user groups.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpeg">
+                 <div class="layer">
+                    <h3>Predictive Models</h3>
+                    <p>Developed machine learning models to analyze data and generate predictions for various applications. Focused on optimizing model performance and accuracy to provide actionable insights, enhancing decision-making processes for businesses.</p>
+                    <a href="https://github.com/pandeymansi/OIBSIP-Oasis-Infobyte"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpeg">
+                <div class="layer">
+                    <h3>Responsive Design</h3>
+                    <p>Developed interfaces that adapt seamlessly to various devices and screen sizes, enhancing accessibility for a diverse user base. Focused on fluid layouts and flexible grids to ensure a consistent user experience, resulting in improved satisfaction and engagement across platforms.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------contact------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> iampandeymansi@gmail.com</p>
+                <!-- <p><i class="fa-solid fa-phone"></i> +91 8779055345</p> -->
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mansi-pande-483736253"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:iampandeymansi@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/pandeymansi"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Mansi Pande. Made with <i class="fa-solid fa-heart"></i> | All Rights Reserved.</p>
+    </div>
+ </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemen = documnet.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwa4KKgJmAo5xCEIz34xrzqwe663iyrYWDQdZq3oVefBEaTavFHvzM28jGb2W4N-Xlw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
+
+<!-- ----------------------------------------Modified Code---------------------------------------------- -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ce75672861.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="class = logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+               <p>Jr. Web Developer</p>
+               <h1>Hi, I'm <span>Mansi</span><br>Pande from India</h1>
+            </div>
+        </div>
+    </div> -->
